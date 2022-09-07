@@ -35,6 +35,11 @@ public:
 		name = n;
 		age = a;
 	}
+	void Print()
+	{
+		cout << "Name - " << name << endl;
+		cout << "Age - " << age << endl;
+	}
 };
 
 int main()
