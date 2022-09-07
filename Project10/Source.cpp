@@ -15,6 +15,13 @@ public:
 		y = b;
 	}
 };
+class Person
+{
+	char* name;
+	int age;
+public:
+
+};
 
 int main()
 {
