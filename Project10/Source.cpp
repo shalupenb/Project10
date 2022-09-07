@@ -17,10 +17,19 @@ public:
 };
 class Person
 {
-	char* name;
+	string name;
 	int age;
 public:
-
+	Person()
+	{
+		name = nullptr;
+		age = 0;
+	}
+	Person(string n, int a)
+	{
+		name = n;
+		age = a;
+	}
 };
 
 int main()
