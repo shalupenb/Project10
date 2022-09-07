@@ -14,6 +14,11 @@ public:
 		x = a;
 		y = b;
 	}
+	void Print()
+	{
+		cout << "X - " << x << endl;
+		cout << "Y - " << y << endl;
+	}
 };
 class Person
 {
