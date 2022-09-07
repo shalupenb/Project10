@@ -44,5 +44,8 @@ public:
 
 int main()
 {
+	Person obj2;
+	Point obj2;
 
+	int mas[5]{ 1,2,3,4,5 };
 }
